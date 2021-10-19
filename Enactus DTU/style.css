@@ -1,0 +1,189 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: rgb(31, 30, 30);
+    color: yellow;
+}
+    
+
+/* .header{ 
+    padding: 0 px;
+    margin: 0 px;
+    color: white;
+}  */
+
+.header div{
+    font-size: 3.999999vw;
+    text-align: center;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+    height: 3.59vw;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+.header p{
+    font-size: 1.09vw;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 0%;
+    color: white;
+    padding-bottom: 5px;
+}
+
+
+#navbar{
+    overflow: hidden;
+    text-transform: uppercase ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: gray;
+    color: blanchedalmond;
+    font-size: 2vw;
+    height: 4.8vw;
+}
+
+nav li{
+    background-color: gray;
+    padding: 0.5vw 2vw;
+    list-style: none;
+    color: rgb(243, 233, 230);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main{
+    width: 68%;
+    /* border:2px solid black; */
+    margin: 23px 16px;
+    padding: 16px 28px;
+    padding-left: 30px;
+    text-align: center;
+}
+.m1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px 2px;    
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.m2{
+    font-size: 2vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px 3px;  
+    text-align: justify; 
+    color: white;
+}
+.m3{
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 20px;  
+    margin-top: 40px;  
+    text-transform: uppercase;
+}
+.m4{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px 2px;    
+    text-transform: uppercase;
+}
+.m5{
+    font-size: 20px;
+    pad: 2px 5px;
+    color: white;
+
+}
+.section{
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius: 30px;
+    color: black;
+    margin: 29px 6px;
+    margin-right: 40px;
+    padding: 4px 2px;
+    width: 38%;
+    text-align: justify;
+}
+.section h1{
+    margin: 3px 6px;
+    padding: 3px 5px;
+    text-align: center;
+}
+.section ul{
+    padding: 4px 5px;
+    margin: 18px 32px;
+    text-align: left;
+}
+.footer{
+    padding: 3vw 1vw;
+    background-color: black;
+}
+.findus{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+    margin-bottom: 100px;
+}
+.findus li{
+list-style-type: none;
+margin: 10px 2px;
+width: 20vw;
+color: white;
+}
+.findus li div{
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+.findus li p{
+    font-size: 1vw;
+    line-height: 12px;
+}
+.findus li img{
+    width: 4.5vw;
+    float: left;
+}
+hr{
+    width: 60vw;
+    margin: auto;
+
+}
+.links{
+    margin: 99px 6px 8px 87px;
+}
+.links .enactus{
+    font-size: 3.999999vw;
+    text-align: left;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+    height: 3.59vw;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.links p{
+    font-size: 1.09vw;
+    text-align: left;
+    margin-top: 0%;
+    padding-top: 0%;
+    color: white;
+    padding-bottom: 5px;
+}
+.links .followus{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 2vw;
+}
+.media img{
+    width: 3vw;
+}
